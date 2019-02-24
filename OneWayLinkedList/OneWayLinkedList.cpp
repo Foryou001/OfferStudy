@@ -27,7 +27,7 @@ void PrintAllNode(ListNode** pHead)
 		cout << p->m_nValue << " ";
 		p = p->m_pNext;
 	}
-	cout << endl;
+	cout << p->m_nValue <<endl;
 }
 
 //Add a node To the tail
@@ -63,8 +63,11 @@ int main()
 {
 	ListNode* OneWayLinkedList = nullptr;
 	int add_value;
-	while (cin >> add_value)
+	cin >> add_value;
+	AddToTail(&OneWayLinkedList, add_value);
+	while (cin.get() != '\n')
 	{
+		cin >> add_value;
 		AddToTail(&OneWayLinkedList, add_value);
 	}
 
