@@ -172,12 +172,12 @@ int main()
 	//PrintAllNode(&OneWayLinkedList);
 
 	//input the node value to delete
-	/*int value_delete;
+	int value_delete;
 	cin >> value_delete;
 
 	RemoveNode(&OneWayLinkedList, value_delete);
 
-	*/
+	
 	PrintAllNode(&OneWayLinkedList);
 
 	ReversePrint(OneWayLinkedList);
