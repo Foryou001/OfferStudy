@@ -34,7 +34,7 @@ void RebuildBinaryTree()
 
 	}
 
-
+	//wo xiang ba zhe ge push shang qu 
 
 	
 }
