@@ -35,7 +35,7 @@ void PrintAllNode(ListNode** pHead)
 /*为什么要将函数的第一个参数pHead设为指向指针的指针。
 因为当我们往一个空链表中插入一个节点时，新插入的节点就是
 链表的头指针。由于此时会改动头指针，因此必须把pHead参数
-设置为指向指针的指针，否则出了这个函数pHead仍然是一个空指针
+设置为指向指针的指针，否则出了这个函数pHead仍是一个空指针
 */
 void AddToTail(ListNode** pHead, int value)
 {
